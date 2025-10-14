@@ -21,7 +21,7 @@ app.post("/chat", async (req, res) => {
     const { question, student_id } = req.body;
 
     // Send the question to the Python chatbot API
-    const response = await fetch("http://localhost:8000/chat", {
+    const response = await fetch("http://localhost:8000/ask", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
        body: JSON.stringify({
@@ -43,7 +43,7 @@ app.post("/chat", async (req, res) => {
     // Return chatbot response to the client
     res.json({
       question,
-      response: data.response
+      response: data.answer
     });
 
   } catch (err) {

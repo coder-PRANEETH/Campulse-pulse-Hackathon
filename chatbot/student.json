@@ -1,0 +1,152 @@
+{
+  "1001": {
+    "name": "Student 1",
+    "phone": "98765000001",
+    "course": "B.Tech Electronics",
+    "reg_no": "STU2023001",
+    "marks": {
+      "CIA1": { "Maths": 71, "Physics": 66, "Chemistry": 69 },
+      "CIA2": { "Maths": 73, "Physics": 68, "Chemistry": 71 }
+    },
+    "cgpa": 7.0,
+    "attendance": "81%",
+    "clubs": ["Dance Club"],
+    "events_attended": ["ElectroFest 2024", "Inter-College Dance Battle"],
+    "interests": ["Robotics", "Music", "Dancing"]
+  },
+  "1002": {
+    "name": "Student 2",
+    "phone": "98765000002",
+    "course": "B.Tech Computer Science",
+    "reg_no": "STU2023002",
+    "marks": {
+      "CIA1": { "Maths": 72, "Physics": 67, "Chemistry": 70 },
+      "CIA2": { "Maths": 74, "Physics": 69, "Chemistry": 72 }
+    },
+    "cgpa": 7.5,
+    "attendance": "82%",
+    "clubs": ["Coding Club"],
+    "events_attended": ["Hackathon 2024", "AI Bootcamp"],
+    "interests": ["Web Development", "AI", "Gaming"]
+  },
+  "1003": {
+    "name": "Student 3",
+    "phone": "98765000003",
+    "course": "B.Tech Electronics",
+    "reg_no": "STU2023003",
+    "marks": {
+      "CIA1": { "Maths": 73, "Physics": 68, "Chemistry": 71 },
+      "CIA2": { "Maths": 75, "Physics": 70, "Chemistry": 73 }
+    },
+    "cgpa": 8.0,
+    "attendance": "83%",
+    "clubs": ["Dance Club"],
+    "events_attended": ["Cultural Night", "Circuit Design Workshop"],
+    "interests": ["Dance", "IoT", "Embedded Systems"]
+  },
+  "1004": {
+    "name": "Student 4",
+    "phone": "98765000004",
+    "course": "B.Tech Computer Science",
+    "reg_no": "STU2023004",
+    "marks": {
+      "CIA1": { "Maths": 74, "Physics": 69, "Chemistry": 72 },
+      "CIA2": { "Maths": 76, "Physics": 71, "Chemistry": 74 }
+    },
+    "cgpa": 6.5,
+    "attendance": "84%",
+    "clubs": ["Coding Club"],
+    "events_attended": ["Hack-a-Day", "DevFest 2025"],
+    "interests": ["Machine Learning", "UI/UX Design", "Coding Challenges"]
+  },
+  "1005": {
+    "name": "Student 5",
+    "phone": "98765000005",
+    "course": "B.Tech Electronics",
+    "reg_no": "STU2023005",
+    "marks": {
+      "CIA1": { "Maths": 75, "Physics": 70, "Chemistry": 73 },
+      "CIA2": { "Maths": 77, "Physics": 72, "Chemistry": 70 }
+    },
+    "cgpa": 7.0,
+    "attendance": "85%",
+    "clubs": ["Dance Club"],
+    "events_attended": ["Electronics Expo", "TechnoBeat Dance Fest"],
+    "interests": ["Circuit Design", "Dancing", "Volunteering"]
+  },
+  "1006": {
+    "name": "Student 6",
+    "phone": "98765000006",
+    "course": "B.Tech Computer Science",
+    "reg_no": "STU2023006",
+    "marks": {
+      "CIA1": { "Maths": 76, "Physics": 71, "Chemistry": 74 },
+      "CIA2": { "Maths": 78, "Physics": 67, "Chemistry": 71 }
+    },
+    "cgpa": 7.5,
+    "attendance": "86%",
+    "clubs": ["Coding Club"],
+    "events_attended": ["Google Cloud Workshop", "SASTRA HackFest"],
+    "interests": ["Cloud Computing", "AI", "Open Source"]
+  },
+  "1007": {
+    "name": "Student 7",
+    "phone": "98765000007",
+    "course": "B.Tech Electronics",
+    "reg_no": "STU2023007",
+    "marks": {
+      "CIA1": { "Maths": 77, "Physics": 72, "Chemistry": 68 },
+      "CIA2": { "Maths": 79, "Physics": 68, "Chemistry": 72 }
+    },
+    "cgpa": 8.0,
+    "attendance": "87%",
+    "clubs": ["Dance Club"],
+    "events_attended": ["Danceathon", "Tech & Talent 2024"],
+    "interests": ["Choreography", "Music", "AI in Robotics"]
+  },
+  "1008": {
+    "name": "Student 8",
+    "phone": "98765000008",
+    "course": "B.Tech Computer Science",
+    "reg_no": "STU2023008",
+    "marks": {
+      "CIA1": { "Maths": 78, "Physics": 65, "Chemistry": 69 },
+      "CIA2": { "Maths": 80, "Physics": 69, "Chemistry": 73 }
+    },
+    "cgpa": 6.5,
+    "attendance": "88%",
+    "clubs": ["Coding Club"],
+    "events_attended": ["Code Sprint", "AI Summit 2025"],
+    "interests": ["Data Structures", "Problem Solving", "AI"]
+  },
+  "1009": {
+    "name": "Student 9",
+    "phone": "98765000009",
+    "course": "B.Tech Electronics",
+    "reg_no": "STU2023009",
+    "marks": {
+      "CIA1": { "Maths": 79, "Physics": 66, "Chemistry": 70 },
+      "CIA2": { "Maths": 72, "Physics": 70, "Chemistry": 74 }
+    },
+    "cgpa": 7.0,
+    "attendance": "89%",
+    "clubs": ["Dance Club"],
+    "events_attended": ["Electronics Symposium", "Cultural Fest"],
+    "interests": ["Sensors", "Dance", "Gadgets"]
+  },
+  "1010": {
+    "name": "Student 10",
+    "phone": "98765000010",
+    "course": "B.Tech Computer Science",
+    "reg_no": "STU2023010",
+    "marks": {
+      "CIA1": { "Maths": 70, "Physics": 67, "Chemistry": 71 },
+      "CIA2": { "Maths": 73, "Physics": 71, "Chemistry": 70 }
+    },
+    "cgpa": 7.5,
+    "attendance": "90%",
+    "clubs": ["Coding Club"],
+    "events_attended": ["HackIt 2025", "CyberSec Workshop"],
+    "interests": ["Cybersecurity", "Web Apps", "AI"]
+  }
+}

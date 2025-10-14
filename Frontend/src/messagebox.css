@@ -1,0 +1,54 @@
+.messagebox{
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid black;
+    position: fixed;
+    background-color: rgb(202, 177, 213);
+    margin: 25vh 25vw;
+ 
+    left: 10%;
+    display: grid;
+    grid-template-rows: 15% 80% 10%;
+    border-radius: 100px;
+}
+.messagebox::after{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.3;
+    position:static;
+}
+
+h3{
+    border-bottom: rgb(177, 174, 174) 2px solid;
+}
+
+.bo,h3{
+    background-color: rgb(40, 37, 42);
+}
+
+#form{
+    background-color: rgb(229, 216, 235);
+    padding: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: baseline;
+ 
+}
+#messagei{
+    width: 90%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+}
+.send{
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.send:hover{
+    background-color: rgb(238, 236, 236);
+    cursor: pointer;
+}

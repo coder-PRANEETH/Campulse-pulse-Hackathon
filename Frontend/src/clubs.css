@@ -1,0 +1,30 @@
+.allclub{
+  background-color: transparent; 
+  margin-left: 20%;
+  width: 80vw;
+  height: 75vh;
+  top: 90px;
+  bottom: 100px;
+  position: fixed;
+  overflow-y: scroll;
+  color: white;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  min-height: 80%;
+  -ms-overflow-style: none;
+  justify-self: center;}
+
+.allclub::-webkit-scrollbar {display: none;}
+h5{
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+h1{
+    width: 100%;
+}
+.recom,.containall{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

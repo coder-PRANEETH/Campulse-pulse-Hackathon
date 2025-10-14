@@ -1,0 +1,81 @@
+.chat-container{
+  background-color: transparent; 
+  margin-left: 20%;
+  margin-right: 4%;
+  width: 80vw;
+  height: 75vh;
+  top: 90px;
+  bottom: 100px;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  min-height: 80%;
+  -ms-overflow-style: none;
+  justify-self: center;}
+
+.chat-container::-webkit-scrollbar {display: none;}
+
+.question{
+    min-width: 10%;
+    max-width: 30%;
+    justify-self: right;
+    position: relative;
+    background-color: rgb(238, 236, 236);
+    height: auto;
+    width: auto;
+    padding: 5px 8px;
+    border-radius: 15px;
+    border: #ffffff 1px solid;
+    color: #35113d;
+    margin-bottom: 40px;}
+  
+
+.answer {
+  display: inline-block;
+  border-right: 2px solid black; 
+  
+  width: 10%;  
+  animation: typing 3s steps(300, end) forwards, blink 2s step-end infinite;}
+  
+  
+  @keyframes typing {
+    from { width: 0px; }
+    to   { width: 40%; }  }
+    
+    @keyframes blink {50% { box-shadow: rgba(255, 255, 255, 0.256) 0px 0px 20px;}}
+    
+    .answer{
+  margin-bottom: 40px;
+  max-width: 30%;
+  color: #320639;
+  justify-self: left;
+  position: relative;
+  background-color: rgb(254, 254, 254);
+  height: auto;
+  padding: 5px 8px;
+  border-radius: 15px;
+  border: #ffffff 1px solid;
+}
+
+
+.top{
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 40px; 
+  background: linear-gradient(to top, rgba(6,0,11,0) 0%, rgb(6,0,10) 100%);
+  pointer-events: none; }
+
+
+.bot{
+  z-index: 100;
+  position: sticky;
+  bottom:  0;
+  width: 100%;
+  height: 40px; 
+  background: linear-gradient(to bottom, rgba(6,0,11,0) 0%, rgb(6,0,10) 100%);
+  pointer-events: none;
+}
+

@@ -1,0 +1,50 @@
+.map-container {
+  position: relative;
+  width: 400px;          /* Restrict width */
+  height: 300px;         /* Restrict height */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Fullscreen mode */
+.map-container.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  border-radius: 0;
+  box-shadow: none;
+}
+span{
+    background-color: white;
+}
+
+/* Button style */
+.map-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(150, 149, 149, 0.2);
+  transition: all 0.2s ease;
+}
+
+.map-btn:hover {
+  background: #f2f2f2;
+}
+.leaflet-left .leaflet-control {
+    margin-left: 0px;
+}
+.leaflet-top .leaflet-control {
+    margin-top: 0px;
+}
