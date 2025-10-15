@@ -1,6 +1,8 @@
 import './clubs.css';
 import { recommend } from './fetchfunctions';
 import { useEffect, useState } from 'react';
+import { FaInstagram } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 const clubsData = [
   { img: "src/assets/ace.jpg", NAME: "ACE", TYPE: "Civil Engineers", instagram: "https://instagram.com/ace_civil" },
@@ -51,10 +53,17 @@ function Clubpage() {
           const card = (
             <div className="cardcontain" key={index}>
               <div className="profilecll">
-                <img src={club.img} alt={club.NAME} />
-                <h5>{club.NAME}</h5>
-                <h5>{club.TYPE}</h5>
-                <a href={club.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+                <img src={club.img} className='clubimg' alt={club.NAME} />
+                <h5 className='wor'>{club.NAME}</h5>
+                <h5 className='wor'>{club.TYPE}</h5>
+                <div className="links">
+
+                <a href={club.instagram} target="_blank" rel="noopener noreferrer" className={`instagram-icon`} aria-label="Visit our Instagram"><SiGmail  /></a>
+                <a href={club.instagram} target="_blank" rel="noopener noreferrer" className={`instagram-icon`} aria-label="Visit our Instagram"><FaInstagram  /></a>
+      </div>
+
+
+
               </div>
             </div>
           );
@@ -74,15 +83,18 @@ function Clubpage() {
     fetchRecommendations();
   }, []);
 
+
+
+
   return (
     <div className="allclub">
       <div className="recom">
-        <h1>Recommended :</h1>
+        <h1 className='titl'> Recommended : </h1 >
         <div className="club-grid">{recommended}</div>
 
-        <h1>Others :</h1>
-        <div className="club-grid">{others}</div>
       </div>
+        <h1 className='titl'>Others :</h1 >
+        <div className="club-grid">{others}</div>
     </div>
   );
 }

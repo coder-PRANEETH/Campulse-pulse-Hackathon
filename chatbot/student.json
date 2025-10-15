@@ -1,161 +1,277 @@
 {
-  "1001": {
-    "name": "Aarav Patel",
-    "phone": "98765000001",
-    "course": "B.Tech Computer Science",
-    "reg_no": "STU2023001",
+  "student_001": {
     "marks": {
-      "CIA1": {"Maths": 78, "Physics": 74, "Chemistry": 70},
-      "CIA2": {"Maths": 82, "Physics": 77, "Chemistry": 72}
+      "CIA1": {"Maths": 92, "Physics": 88, "Chemistry": 85},
+      "CIA2": {"Maths": 94, "Physics": 90, "Chemistry": 87}
     },
-    "cgpa": 8.1,
-    "attendance": "88%",
-    "clubs": ["Coding Club"],
-    "events_attended": ["Hackathon 2024", "AI Bootcamp"],
-    "interests": ["AI", "Web Development", "Gaming"]
-  },
-
-  "1002": {
-    "name": "Diya Sharma",
-    "phone": "98765000002",
-    "course": "B.Tech Electronics",
-    "reg_no": "STU2023002",
-    "marks": {
-      "CIA1": {"Maths": 65, "Physics": 80, "Chemistry": 78},
-      "CIA2": {"Maths": 68, "Physics": 82, "Chemistry": 79}
-    },
-    "cgpa": 8.3,
-    "attendance": "92%",
-    "clubs": ["Robotics Club"],
-    "events_attended": ["Robo Fest", "Circuit Design Workshop"],
-    "interests": ["Robotics", "AI", "Hardware"]
-  },
-
-  "1003": {
-    "name": "Rohan Kumar",
-    "phone": "98765000003",
-    "course": "B.Tech Mechanical",
-    "reg_no": "STU2023003",
-    "marks": {
-      "CIA1": {"Maths": 70, "Physics": 72, "Chemistry": 68},
-      "CIA2": {"Maths": 74, "Physics": 70, "Chemistry": 65}
-    },
-    "cgpa": 7.4,
-    "attendance": "80%",
-    "clubs": ["Automobile Club"],
-    "events_attended": ["Auto Expo", "Workshop on Engines"],
-    "interests": ["Cars", "Design", "Mechanics"]
-  },
-
-  "1004": {
-    "name": "Neha Iyer",
-    "phone": "98765000004",
-    "course": "B.Tech Computer Science",
-    "reg_no": "STU2023004",
-    "marks": {
-      "CIA1": {"Maths": 90, "Physics": 86, "Chemistry": 84},
-      "CIA2": {"Maths": 92, "Physics": 88, "Chemistry": 85}
-    },
-    "cgpa": 9.2,
+    "cgpa": 9.4,
     "attendance": "95%",
-    "clubs": ["AI Club", "Coding Club"],
-    "events_attended": ["Deep Learning Workshop", "Hackathon 2025"],
-    "interests": ["AI", "Machine Learning", "Data Science"]
+    "events_attended": ["Hackathon 2024", "AI Bootcamp", "Code Wars"],
+    "interests": ["AI", "Machine Learning", "Coding", "Web Development"],
+    "clubs": ["Computo", "AI Nexus", "GDSC"]
   },
-
-  "1005": {
-    "name": "Sanjay Verma",
-    "phone": "98765000005",
-    "course": "B.Tech Civil",
-    "reg_no": "STU2023005",
+  "student_002": {
     "marks": {
-      "CIA1": {"Maths": 68, "Physics": 62, "Chemistry": 75},
-      "CIA2": {"Maths": 70, "Physics": 65, "Chemistry": 78}
+      "CIA1": {"Maths": 85, "Physics": 92, "Chemistry": 80},
+      "CIA2": {"Maths": 87, "Physics": 94, "Chemistry": 82}
     },
-    "cgpa": 7.1,
-    "attendance": "87%",
-    "clubs": ["Eco Club"],
-    "events_attended": ["Green Campus Drive", "Recycling Workshop"],
-    "interests": ["Environment", "Sustainability", "Architecture"]
+    "cgpa": 8.9,
+    "attendance": "92%",
+    "events_attended": ["Robotics Workshop", "Electronics Expo", "IOT Challenge"],
+    "interests": ["Robotics", "Electronics", "Automation", "Engineering"],
+    "clubs": ["RoboNix", "IEEE", "IET"]
   },
-
-  "1006": {
-    "name": "Priya Menon",
-    "phone": "98765000006",
-    "course": "B.Tech IT",
-    "reg_no": "STU2023006",
+  "student_003": {
     "marks": {
-      "CIA1": {"Maths": 82, "Physics": 75, "Chemistry": 73},
-      "CIA2": {"Maths": 85, "Physics": 78, "Chemistry": 76}
+      "CIA1": {"Maths": 78, "Physics": 82, "Chemistry": 85},
+      "CIA2": {"Maths": 80, "Physics": 84, "Chemistry": 87}
     },
-    "cgpa": 8.4,
-    "attendance": "91%",
-    "clubs": ["Web Dev Club"],
-    "events_attended": ["UI/UX Bootcamp", "Hackathon 2024"],
-    "interests": ["Web Development", "Design", "AI"]
+    "cgpa": 8.2,
+    "attendance": "88%",
+    "events_attended": ["Music Festival", "Cultural Night", "Band Competition"],
+    "interests": ["Music", "Singing", "Performing Arts"],
+    "clubs": ["Aarohi", "Rhythm"]
   },
-
-  "1007": {
-    "name": "Karthik Raj",
-    "phone": "98765000007",
-    "course": "B.Tech Mechanical",
-    "reg_no": "STU2023007",
+  "student_004": {
     "marks": {
-      "CIA1": {"Maths": 65, "Physics": 68, "Chemistry": 60},
-      "CIA2": {"Maths": 67, "Physics": 70, "Chemistry": 62}
-    },
-    "cgpa": 7.0,
-    "attendance": "82%",
-    "clubs": ["Automobile Club"],
-    "events_attended": ["Auto Expo", "CAD Design Workshop"],
-    "interests": ["Cars", "Engines", "Robotics"]
-  },
-
-  "1008": {
-    "name": "Meera Nair",
-    "phone": "98765000008",
-    "course": "B.Tech ECE",
-    "reg_no": "STU2023008",
-    "marks": {
-      "CIA1": {"Maths": 72, "Physics": 78, "Chemistry": 69},
-      "CIA2": {"Maths": 75, "Physics": 80, "Chemistry": 72}
+      "CIA1": {"Maths": 82, "Physics": 78, "Chemistry": 75},
+      "CIA2": {"Maths": 84, "Physics": 80, "Chemistry": 77}
     },
     "cgpa": 8.0,
-    "attendance": "90%",
-    "clubs": ["Robotics Club"],
-    "events_attended": ["Drone Tech Fair", "IoT Bootcamp"],
-    "interests": ["Electronics", "IoT", "Robotics"]
+    "attendance": "85%",
+    "events_attended": ["Drama Competition", "Theater Workshop", "Stage Play"],
+    "interests": ["Drama", "Acting", "Performing Arts"],
+    "clubs": ["Dramatics", "LitSoc"]
   },
-
-  "1009": {
-    "name": "Vikram Das",
-    "phone": "98765000009",
-    "course": "B.Tech Civil",
-    "reg_no": "STU2023009",
+  "student_005": {
     "marks": {
-      "CIA1": {"Maths": 60, "Physics": 55, "Chemistry": 70},
-      "CIA2": {"Maths": 63, "Physics": 58, "Chemistry": 72}
+      "CIA1": {"Maths": 88, "Physics": 85, "Chemistry": 90},
+      "CIA2": {"Maths": 90, "Physics": 87, "Chemistry": 92}
     },
-    "cgpa": 6.8,
-    "attendance": "83%",
-    "clubs": ["Eco Club"],
-    "events_attended": ["Tree Plantation Drive", "Clean Campus Campaign"],
-    "interests": ["Environment", "Sustainability", "Gardening"]
+    "cgpa": 8.8,
+    "attendance": "93%",
+    "events_attended": ["Designathon", "UI/UX Workshop", "Photo Exhibition"],
+    "interests": ["Design", "Creativity", "Photography", "Videography"],
+    "clubs": ["Pixel", "Shutterbugs"]
   },
-
-  "1010": {
-    "name": "Ananya Gupta",
-    "phone": "98765000010",
-    "course": "B.Tech Computer Science",
-    "reg_no": "STU2023010",
+  "student_006": {
     "marks": {
-      "CIA1": {"Maths": 85, "Physics": 82, "Chemistry": 80},
-      "CIA2": {"Maths": 87, "Physics": 84, "Chemistry": 82}
+      "CIA1": {"Maths": 85, "Physics": 80, "Chemistry": 82},
+      "CIA2": {"Maths": 87, "Physics": 82, "Chemistry": 84}
+    },
+    "cgpa": 8.3,
+    "attendance": "90%",
+    "events_attended": ["Startup Pitch", "Business Plan Competition", "Finance Quiz"],
+    "interests": ["Entrepreneurship", "Startups", "Business", "Finance"],
+    "clubs": ["E-Cell", "FinSights"]
+  },
+  "student_007": {
+    "marks": {
+      "CIA1": {"Maths": 90, "Physics": 92, "Chemistry": 88},
+      "CIA2": {"Maths": 92, "Physics": 94, "Chemistry": 90}
+    },
+    "cgpa": 9.1,
+    "attendance": "96%",
+    "events_attended": ["Google DevFest", "Flutter Workshop", "Android Development"],
+    "interests": ["App Development", "Coding", "Web Development"],
+    "clubs": ["GDSC", "Computo"]
+  },
+  "student_008": {
+    "marks": {
+      "CIA1": {"Maths": 80, "Physics": 85, "Chemistry": 82},
+      "CIA2": {"Maths": 82, "Physics": 87, "Chemistry": 84}
+    },
+    "cgpa": 8.1,
+    "attendance": "87%",
+    "events_attended": ["Astronomy Night", "Space Workshop", "Telescope Making"],
+    "interests": ["Astronomy", "Space", "Science"],
+    "clubs": ["AstroClub"]
+  },
+  "student_009": {
+    "marks": {
+      "CIA1": {"Maths": 75, "Physics": 78, "Chemistry": 80},
+      "CIA2": {"Maths": 77, "Physics": 80, "Chemistry": 82}
+    },
+    "cgpa": 7.8,
+    "attendance": "82%",
+    "events_attended": ["Gaming Tournament", "Esports Championship", "Game Development"],
+    "interests": ["Gaming", "Esports", "Game Development"],
+    "clubs": ["GameHub"]
+  },
+  "student_010": {
+    "marks": {
+      "CIA1": {"Maths": 82, "Physics": 78, "Chemistry": 75},
+      "CIA2": {"Maths": 84, "Physics": 80, "Chemistry": 77}
+    },
+    "cgpa": 7.9,
+    "attendance": "84%",
+    "events_attended": ["Environmental Awareness", "Clean Drive", "Tree Plantation"],
+    "interests": ["Environment", "Ecology", "Social Service"],
+    "clubs": ["EcoVision", "NSS"]
+  },
+  "student_011": {
+    "marks": {
+      "CIA1": {"Maths": 95, "Physics": 92, "Chemistry": 90},
+      "CIA2": {"Maths": 96, "Physics": 93, "Chemistry": 91}
+    },
+    "cgpa": 9.5,
+    "attendance": "98%",
+    "events_attended": ["Research Paper Competition", "Tech Symposium", "Innovation Challenge"],
+    "interests": ["Research", "Electronics", "Innovation", "Technology"],
+    "clubs": ["IEEE", "IET", "AI Nexus"]
+  },
+  "student_012": {
+    "marks": {
+      "CIA1": {"Maths": 85, "Physics": 88, "Chemistry": 82},
+      "CIA2": {"Maths": 87, "Physics": 90, "Chemistry": 84}
+    },
+    "cgpa": 8.5,
+    "attendance": "91%",
+    "events_attended": ["Debate Competition", "Literary Fest", "Creative Writing"],
+    "interests": ["Debate", "Literary", "Writing", "Public Speaking"],
+    "clubs": ["LitSoc"]
+  },
+  "student_013": {
+    "marks": {
+      "CIA1": {"Maths": 88, "Physics": 85, "Chemistry": 90},
+      "CIA2": {"Maths": 90, "Physics": 87, "Chemistry": 92}
+    },
+    "cgpa": 8.7,
+    "attendance": "94%",
+    "events_attended": ["NCC Camp", "Leadership Workshop", "Discipline Training"],
+    "interests": ["Leadership", "Discipline", "Social Service"],
+    "clubs": ["NCC", "NSS"]
+  },
+  "student_014": {
+    "marks": {
+      "CIA1": {"Maths": 92, "Physics": 85, "Chemistry": 88},
+      "CIA2": {"Maths": 94, "Physics": 87, "Chemistry": 90}
     },
     "cgpa": 8.9,
     "attendance": "93%",
-    "clubs": ["AI Club", "Coding Club"],
-    "events_attended": ["AI Bootcamp", "Data Science Summit"],
-    "interests": ["AI", "Data Science", "Machine Learning"]
+    "events_attended": ["Civil Expo", "Structural Design", "Construction Tech"],
+    "interests": ["Civil Engineering", "Construction", "Design"],
+    "clubs": ["ACE", "Pixel"]
+  },
+  "student_015": {
+    "marks": {
+      "CIA1": {"Maths": 87, "Physics": 90, "Chemistry": 85},
+      "CIA2": {"Maths": 89, "Physics": 92, "Chemistry": 87}
+    },
+    "cgpa": 8.6,
+    "attendance": "92%",
+    "events_attended": ["Data Science Bootcamp", "ML Workshop", "AI Competition"],
+    "interests": ["Data Science", "Machine Learning", "AI", "Research"],
+    "clubs": ["AI Nexus", "Computo", "IEEE"]
+  },
+  "student_016": {
+    "marks": {
+      "CIA1": {"Maths": 83, "Physics": 80, "Chemistry": 78},
+      "CIA2": {"Maths": 85, "Physics": 82, "Chemistry": 80}
+    },
+    "cgpa": 8.0,
+    "attendance": "86%",
+    "events_attended": ["Dance Competition", "Cultural Fest", "Choreography Workshop"],
+    "interests": ["Dance", "Performance", "Choreography"],
+    "clubs": ["Rhythm"]
+  },
+  "student_017": {
+    "marks": {
+      "CIA1": {"Maths": 89, "Physics": 87, "Chemistry": 85},
+      "CIA2": {"Maths": 91, "Physics": 89, "Chemistry": 87}
+    },
+    "cgpa": 8.7,
+    "attendance": "94%",
+    "events_attended": ["Photography Contest", "Video Making", "Creative Design"],
+    "interests": ["Photography", "Videography", "Design", "Creativity"],
+    "clubs": ["Shutterbugs", "Pixel"]
+  },
+  "student_018": {
+    "marks": {
+      "CIA1": {"Maths": 84, "Physics": 86, "Chemistry": 82},
+      "CIA2": {"Maths": 86, "Physics": 88, "Chemistry": 84}
+    },
+    "cgpa": 8.3,
+    "attendance": "89%",
+    "events_attended": ["Business Innovation", "Startup Summit", "Finance Case Study"],
+    "interests": ["Business", "Finance", "Investment", "Entrepreneurship"],
+    "clubs": ["FinSights", "E-Cell"]
+  },
+  "student_019": {
+    "marks": {
+      "CIA1": {"Maths": 91, "Physics": 89, "Chemistry": 87},
+      "CIA2": {"Maths": 93, "Physics": 91, "Chemistry": 89}
+    },
+    "cgpa": 8.9,
+    "attendance": "95%",
+    "events_attended": ["Tech Innovation", "Research Conference", "Project Exhibition"],
+    "interests": ["Innovation", "Technology", "Research", "Development"],
+    "clubs": ["IET", "IEEE", "AI Nexus"]
+  },
+  "student_020": {
+    "marks": {
+      "CIA1": {"Maths": 79, "Physics": 82, "Chemistry": 80},
+      "CIA2": {"Maths": 81, "Physics": 84, "Chemistry": 82}
+    },
+    "cgpa": 7.9,
+    "attendance": "83%",
+    "events_attended": ["Social Service Camp", "Community Drive", "Awareness Program"],
+    "interests": ["Social Service", "Community", "Environment", "Leadership"],
+    "clubs": ["NSS", "EcoVision", "NCC"]
+  },
+  "student_021": {
+    "marks": {
+      "CIA1": {"Maths": 86, "Physics": 84, "Chemistry": 88},
+      "CIA2": {"Maths": 88, "Physics": 86, "Chemistry": 90}
+    },
+    "cgpa": 8.4,
+    "attendance": "90%",
+    "events_attended": ["Web Development Bootcamp", "Hackathon", "Code Challenge"],
+    "interests": ["Web Development", "Coding", "Design", "UI/UX"],
+    "clubs": ["Computo", "GDSC", "Pixel"]
+  },
+  "student_022": {
+    "marks": {
+      "CIA1": {"Maths": 90, "Physics": 88, "Chemistry": 86},
+      "CIA2": {"Maths": 92, "Physics": 90, "Chemistry": 88}
+    },
+    "cgpa": 8.8,
+    "attendance": "94%",
+    "events_attended": ["Robotics Competition", "Automation Workshop", "IOT Project"],
+    "interests": ["Robotics", "Automation", "IOT", "Electronics"],
+    "clubs": ["RoboNix", "IEEE", "IET"]
+  },
+  "student_023": {
+    "marks": {
+      "CIA1": {"Maths": 82, "Physics": 85, "Chemistry": 80},
+      "CIA2": {"Maths": 84, "Physics": 87, "Chemistry": 82}
+    },
+    "cgpa": 8.1,
+    "attendance": "87%",
+    "events_attended": ["Music Production", "Band Performance", "Cultural Event"],
+    "interests": ["Music Production", "Performance", "Arts"],
+    "clubs": ["Aarohi"]
+  },
+  "student_024": {
+    "marks": {
+      "CIA1": {"Maths": 87, "Physics": 83, "Chemistry": 85},
+      "CIA2": {"Maths": 89, "Physics": 85, "Chemistry": 87}
+    },
+    "cgpa": 8.4,
+    "attendance": "91%",
+    "events_attended": ["Theater Performance", "Drama Fest", "Acting Workshop"],
+    "interests": ["Theater", "Acting", "Direction", "Performance"],
+    "clubs": ["Dramatics", "LitSoc"]
+  },
+  "student_025": {
+    "marks": {
+      "CIA1": {"Maths": 88, "Physics": 86, "Chemistry": 89},
+      "CIA2": {"Maths": 90, "Physics": 88, "Chemistry": 91}
+    },
+    "cgpa": 8.7,
+    "attendance": "93%",
+    "events_attended": ["AI Research", "Data Analytics", "Machine Learning Project"],
+    "interests": ["AI Research", "Data Analytics", "Machine Learning"],
+    "clubs": ["AI Nexus", "Computo", "IEEE"]
   }
 }

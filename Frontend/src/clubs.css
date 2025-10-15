@@ -20,6 +20,33 @@ h5{
     text-decoration: none;
     
 }
+.instagram-icon {
+    height: 10px;
+    width: 10px;
+    margin: auto;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  
+}
+.links{
+    width: 40%;
+
+}
+
+
+/* For gradient background on hover */
+.instagram-gradient:hover {
+  background: green;
+}
+.instagram-icon svg{
+    fill: grey;
+}
+.instagram-icon:hover svg {
+  fill: white;
+}
 .profilecll{
     
     border-radius: 10px;
@@ -29,6 +56,7 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     justify-content: center;
 }
 h5{
@@ -45,4 +73,18 @@ h5{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.titl{
+    width: 100%;
+}
+.wor{
+    text-align: center;
+}
+.clubimg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
