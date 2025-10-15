@@ -40,3 +40,9 @@ h5{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.club-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

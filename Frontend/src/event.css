@@ -32,7 +32,7 @@
 }
 .title{
   height: 20%;
-  margin-bottom: 20px;
+  margin-top: 20px;
   font-size: 40px;
   font-weight: bold;
   justify-content: left;
@@ -74,4 +74,9 @@ p{
   width: 70px;
   justify-self: center;
   margin: 0 10px 30px 0;
+}
+
+.appl:hover{
+  background-color: rgb(103, 125, 197);
+  cursor: pointer;
 }

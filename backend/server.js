@@ -62,8 +62,39 @@ app.get('/history', async (req, res) => {
     res.status(500).json({ message: err.message });
   }})
 
+app.post("/recommend", async (req, res) => {
+  try {
+    const studentData = req.body; // This contains the complete student data
+    
+    console.log("Received student data:", studentData);
 
+    // Send the student data to Python API
+    const response = await fetch("http://localhost:8001/recommend", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(studentData) // Send the entire studentData object
+    });
 
+    if (!response.ok) {
+      throw new Error(`Python API responded with status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log("✅ Recommendation response received:", data);
+    
+    // Return the recommended clubs directly
+    res.json({
+      recommended_clubs: data.recommended_clubs || data.response || []
+    });
+
+  } catch (err) {
+    console.error("❌ Error contacting recommendation service:", err.message);
+    res.status(500).json({ 
+      error: "Failed to contact recommendation service.",
+      recommended_clubs: [] // Return empty array as fallback
+    });
+  }
+});
 run();
 app.listen(5000, () => {
   console.log(`🚀 Server running on http://localhost:5000`);

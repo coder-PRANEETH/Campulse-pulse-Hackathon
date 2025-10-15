@@ -1,6 +1,6 @@
 import './clubs.css';
-
-
+import { recommend } from './fetchfunctions';
+import { useEffect, useState } from 'react';
 
 const clubsData = [
   { img: "src/assets/ace.jpg", NAME: "ACE", TYPE: "Civil Engineers", instagram: "https://instagram.com/ace_civil" },
@@ -25,40 +25,66 @@ const clubsData = [
   { img: "src/assets/dance.jpg", NAME: "Rhythm", TYPE: "Dance & Performance", instagram: "https://instagram.com/rhythm_club" }
 ];
 
+function Clubpage() {
+  const [recommended, setRecommended] = useState([]);
+  const [others, setOthers] = useState([]);
 
-var clubs =
-      clubsData.map((club, index) => (
-          <div className="cardcontain">
-        <div key={index} className="profilecll">
-          <img src={club.img} alt={club.NAME} />
-          <h5>{club.NAME}</h5>
-          <h5>{club.TYPE}</h5>
-        </div>
-      
-    </div>));
+  useEffect(() => {
+    async function fetchRecommendations() {
+      try {
+        const recommendedClubs = await recommend({
+          marks: {
+            CIA1: { Maths: 85, Physics: 80, Chemistry: 78 },
+            CIA2: { Maths: 88, Physics: 83, Chemistry: 80 }
+          },
+          cgpa: 8.8,
+          attendance: "90%",
+          events_attended: ["Hackathon 2024", "AI Bootcamp"],
+          interests: ["AI", "Web Development"]
+        });
 
+        // Separate recommended vs others
+        const rec = [];
+        const nonrec = [];
 
-
-
-
-
-function Clubpage(){
-
-    return (
-        <>
-        <div className="allclub">
-            <div className="recom">
-
-            <h1>Recommended :</h1>
-            {clubs}
-           
-
+        clubsData.forEach((club, index) => {
+          const card = (
+            <div className="cardcontain" key={index}>
+              <div className="profilecll">
+                <img src={club.img} alt={club.NAME} />
+                <h5>{club.NAME}</h5>
+                <h5>{club.TYPE}</h5>
+                <a href={club.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+              </div>
             </div>
-        </div>
+          );
 
+          if (recommendedClubs.includes(club.NAME)) rec.push(card);
+          else nonrec.push(card);
+        });
 
-        </>
-    )
+        setRecommended(rec);
+        setOthers(nonrec);
+
+      } catch (error) {
+        console.error("Error fetching recommendations:", error);
+      }
+    }
+
+    fetchRecommendations();
+  }, []);
+
+  return (
+    <div className="allclub">
+      <div className="recom">
+        <h1>Recommended :</h1>
+        <div className="club-grid">{recommended}</div>
+
+        <h1>Others :</h1>
+        <div className="club-grid">{others}</div>
+      </div>
+    </div>
+  );
 }
 
 export default Clubpage;

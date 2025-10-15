@@ -43,7 +43,7 @@
 
 .cardcontain:hover{
     border: white 1px solid;
-    background: linear-gradient(135deg, #71b7e6,rgb(51, 63, 192), #9b59b6);
+    /* background: linear-gradient(135deg, #71b7e6,rgb(51, 63, 192), #9b59b6); */
     transform: scale(1.05);
     box-shadow: rgba(106, 154, 186, 0.369) 0px 0px 15px 10px;
 }

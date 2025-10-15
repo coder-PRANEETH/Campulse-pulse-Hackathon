@@ -21,23 +21,22 @@ export async function fetchChat(message) {
 }
 
 
-export async function recommend(data) {
- try {
+export async function recommend(studentData) {
+  try {
     const response = await fetch("http://localhost:5000/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message }),
+      body: JSON.stringify(studentData)
     });
-    console.log(JSON.stringify({ message }));
 
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`Server responded with status: ${response.status}`);
     }
 
     const data = await response.json();
-    console.log(data.response);
-    return data.response 
+    return data.recommended_clubs || [];
   } catch (error) {
-    console.error("Error recommending:");
-  } 
+    console.error("Error fetching recommendations:", error);
+    return []; // Return empty array as fallback
+  }
 }
