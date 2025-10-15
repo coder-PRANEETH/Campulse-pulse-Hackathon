@@ -14,7 +14,7 @@ function Chat({ans}) {
       var answer = fetchChat(ans);
       answer.then(data => {
        const BUILDING_LOCATIONS = {
-  "VKJ": [10.726767, 79.020843],
+  "vkj": [10.726767, 79.020843],
   jvc: [10.727548, 79.017953],
   nmv: [10.727605, 79.016893],
   vv: [10.729352, 79.018169],
@@ -22,14 +22,12 @@ function Chat({ans}) {
   cv: [10.729296, 79.019623],
   tdc: [10.728789, 79.020853],
   ltc: [10.727997, 79.020207],
-  som: [10.728139, 79.020984],
-};
+  som: [10.728139, 79.020984],};
 
 // Normalize user input
 const lower = data.toLowerCase();
-console.log(typeof(lower));
-0
-if (data === "VKJ") {setchat(prev => [...prev,<CampusNavigation key={Date.now()} coordinates={BUILDING_LOCATIONS[data]}/>,]);}
+
+if ( data == "VKJ") {setchat(prev => [...prev,<CampusNavigation key={Date.now()} coordinates={BUILDING_LOCATIONS[lower]}/>,]);}
 else{setchat(prev => [...prev, <div className="answer">{data}</div>]);}});}}, [ans]);
     
   return (
