@@ -18,7 +18,7 @@ const clubsData = [
   { img: "src/assets/entre.jpg", NAME: "E-Cell", TYPE: "Entrepreneurship & Startups", instagram: "https://instagram.com/ecell_official" },
   { img: "src/assets/nss.jpeg", NAME: "NSS", TYPE: "Social Service", instagram: "https://instagram.com/nss_club" },
   { img: "src/assets/ncc.jpeg", NAME: "NCC", TYPE: "Discipline & Leadership", instagram: "https://instagram.com/ncc_india" },
-  { img: "src/assets/photography.jpg", NAME: "Shutterbugs", TYPE: "Photography & Videography", instagram: "https://instagram.com/shutterbugs_club" },
+  { img: "src/assets/photography.jpeg", NAME: "Shutterbugs", TYPE: "Photography & Videography", instagram: "https://instagram.com/shutterbugs_club" },
   { img: "src/assets/fin.jpg", NAME: "FinSights", TYPE: "Finance & Business", instagram: "https://instagram.com/finsights_club" },
   { img: "src/assets/gdsc.jpg", NAME: "GDSC", TYPE: "Google Developers", instagram: "https://instagram.com/gdsc_official" },
   { img: "src/assets/ai.jpg", NAME: "AI Nexus", TYPE: "AI, Data Science & Research", instagram: "https://instagram.com/ai_nexus" },

@@ -3,8 +3,8 @@ import ProfileCard from './ProfileCard';
 import CircularProgress from './CircularProgress';
 function Profile() {
     const studentData = {
-      name: 'Praneeth Maheshwaran',
-      registerNumber: '128156104',
+      name: 'John Wick',
+      registerNumber: 'XXXXXXXXXXX',
       course: 'B Tech Computer Science & Engineering (Artificial Intelligence & Data Science)',
       semester: 'III Semester',
       imageUrl: 'src\assets\IMG_20241119_123515.jpg',

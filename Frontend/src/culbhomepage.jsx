@@ -12,6 +12,5 @@ function Clubhome({setques}) {
     <Nav/>
     <History/>
 <Clubpage/>
-        <Ask setques = {setques}/>
     </>)}
 export default Clubhome;

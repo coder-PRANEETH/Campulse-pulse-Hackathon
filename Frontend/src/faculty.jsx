@@ -37,12 +37,7 @@ var teadata =[
     "subject": "Electronics and Communication",
     "imgurl": "src/assets/suresh_reddy.jpg"
   },
-  {
-    "name": "Ms. Kavya Iyer",
-    "job": "Assistant Professor",
-    "subject": "Physics",
-    "imgurl": "src/assets/kavya_iyer.jpg"
-  },
+  
   {
     "name": "Mr. Arjun Varma",
     "job": "Lecturer",

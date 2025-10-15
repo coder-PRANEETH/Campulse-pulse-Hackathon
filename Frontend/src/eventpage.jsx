@@ -69,6 +69,6 @@ function Event({setques}) {
     <Nav/>
     <History/>
 {allphoto}
-        <Ask setques = {setques}/>
+       
     </>)}
 export default Event;

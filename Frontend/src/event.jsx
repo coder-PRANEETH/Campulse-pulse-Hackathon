@@ -4,7 +4,7 @@ import './event.css'
 function PhotoCard({ imageUrl, title, description }) {
   return (
     <div className="photo-card-container">
-      <div src={imageUrl} alt={title} className="photo-card-image" ></div>
+      <img src={imageUrl} alt={title} className="photo-card-image" ></img>
       <div className="descrip">
 
       <div className="title">{title}</div>

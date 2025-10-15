@@ -27,6 +27,25 @@ function UserLocationMarker({ setUserLocation }) {
   return null;
 }
 
+// Helper component to refresh map size (prevents tile rendering issues)
+// In your CampusNavigation.js (or new file)
+function MapRefresher({ isFull }) {
+  const map = useMap();
+
+  // This useEffect runs once on mount AND every time 'isFull' changes
+  useEffect(() => {
+    // A short delay is often necessary for CSS transitions to complete
+    const timer = setTimeout(() => {
+      map.invalidateSize();
+    }, 100); 
+
+    return () => clearTimeout(timer); // Cleanup function
+  }, [map, isFull]); 
+
+  return null;
+}
+
+
 export default function CampusNavigation({ coordinates = [10.728284, 79.020296] }) {
   const [isFull, setIsFull] = useState(false);
   const [userLocation, setUserLocation] = useState(null);
@@ -35,7 +54,7 @@ export default function CampusNavigation({ coordinates = [10.728284, 79.020296] 
   const defaultCenter = [10.728284, 79.020296];
   const bounds = [
     [10.72, 79.01], // Southwest corner
-    [10.74, 79.03]  // Northeast corner
+    [10.74, 79.03], // Northeast corner
   ];
 
   return (
@@ -54,8 +73,13 @@ export default function CampusNavigation({ coordinates = [10.728284, 79.020296] 
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        {/* User location marker */}
+       
+  {/* ... other components ... */}
+  <MapRefresher isFull={isFull} />
+
         <UserLocationMarker setUserLocation={setUserLocation} />
+
+        {/* User location marker */}
         {userLocation && (
           <Marker position={userLocation} icon={customIcon}>
             <Popup>📍 You are here</Popup>
