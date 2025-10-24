@@ -1,6 +1,6 @@
 export async function fetchChat(message) {
   try {
-    const response = await fetch("http://localhost:5000/chat", {
+    const response = await fetch("https://campulse-pulse-hackathon.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message }),
@@ -23,7 +23,7 @@ export async function fetchChat(message) {
 
 export async function recommend(studentData) {
   try {
-    const response = await fetch("http://localhost:5000/recommend", {
+    const response = await fetch("https://campulse-pulse-hackathon.onrender.com/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(studentData)
